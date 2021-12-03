@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Grupo: EcoGamer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projeto: EcoCrush
 
-## Available Scripts
+## Integrantes:
 
-In the project directory, you can run:
+- André Oliveira
+  Linkedin: https://www.linkedin.com/in/andr%C3%A9-luiz-pereira-de-oliveira-a6919a1a4/
+- Danielle Roque
+- Pedro Abel
+- Weslley Fernandes
 
-### `yarn start`
+# Proposta
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Nossa proposta é desenvolver o game EcoCrush, um jogo onde incentiva as pessoas no geral a coletarem materiais recicláveis e entregarem para prestadores de serviços que executam a coleta dos mesmos, onde cada coleta vale X pontos, tendo uma pontuação geral com ranking das maiores pontuações num determinado período.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Outras formas de somar pontos, são através do Quiz sobre sustentabilidade/meio ambiente e também pelo game principal, que funcionará semelhante ao jogo _Candy Crush Saga,_ mas utilizando itens recicláveis para serem combinados. Assim, será possível aprender enquanto joga.
 
-### `yarn test`
+![candycrush.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19e300eb-eed8-41b4-baa6-04bfda415594/candycrush.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Beneficios
 
-### `yarn build`
+O principal benefício do nosso projeto, é educar as pessoas sobre como a reciclagem de materiais funciona e incentivar os mesmos a praticarem esse ato, de uma maneira divertida e informativa.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Nosso público alvo será, principalmente, crianças. Com isso, vamos apresentar aos pequenos o mundo da reciclagem, seus benefícios e como participar dele!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Impactos sobre a sociedade
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Temos como objetivo causar grande impacto em como a sociedade trata o descarte de resíduos e itens recicláveis, ensinando e incentivando a prática dessas ações que melhoram nosso meio ambiente e sociedade, se tornando cada vez mais sustentável e poluindo menos.
 
-### `yarn eject`
+# Referencias:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+https://github.com/x0n4d0/ecoleta
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Candy Crush Saga - Wikipédia, a enciclopédia livre](https://pt.wikipedia.org/wiki/Candy_Crush_Saga)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+EcoCrush, uma experiência excepcional onde reciclar é divertido! Um jogo mobile de puzzles e Quizzes, trocando e reciclando através de uma aventura auto sustentável!
