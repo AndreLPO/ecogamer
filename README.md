@@ -1,3 +1,6 @@
+# Site Desenvolvido para o projeto EcoCrush durante o primeiro Hackathon UNISAL
+
+
 # Grupo: EcoGamer
 
 ## Projeto: EcoCrush
