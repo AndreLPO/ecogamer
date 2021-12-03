@@ -1,0 +1,189 @@
+$cor-principal: #68b31d;
+$verde-escuro: #517b27;
+$verde-claro: #78ef00;
+$preto: #212121;
+$cinza: #a4a4a4;
+$cinza-claro: #dddddd;
+$roxo: #361db4;
+
+@font-face {
+  font-family: "Inter Medium";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Neufreit";
+  src: url("../assets/fonts/Neufreit-ExtraBold.otf");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: $cor-principal;
+  height: 100vh;
+
+  nav {
+    display: flex;
+
+    img {
+      position: absolute;
+      top: 30px;
+      left: 75px;
+    }
+
+    ul {
+      display: flex;
+      margin-top: 30px;
+      justify-content: center;
+      width: 100%;
+      list-style: none;
+      gap: 15px;
+
+      li a {
+        text-decoration: none;
+        color: $roxo;
+        font-family: "Inter Medium", sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  img#mundo {
+    position: absolute;
+    height: 40%;
+    top: 61px;
+    right: 0px;
+    object-position: 10vw;
+  }
+  .conteudo-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+
+    img#ecocrush {
+      max-width: 100%;
+      object-fit: contain;
+      height: 20vh;
+    }
+    p {
+      color: $roxo;
+      font-family: Neufreit;
+      max-width: 725px;
+      font-size: 24px;
+      line-height: 150%;
+      margin: 40px auto;
+    }
+  }
+
+  img#pessoa {
+    position: absolute;
+    left: 0;
+    top: 55vh;
+    height: 50vh;
+  }
+}
+
+section.game {
+  background-color: $roxo;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 30px 75px 80px 75px;
+  > h1 {
+    color: $verde-claro;
+    font-size: 50px;
+    font-family: Neufreit;
+    line-height: 70px;
+  }
+
+  div {
+    height: 2px;
+    width: 100%;
+    background-color: $verde-claro;
+    margin: auto;
+  }
+
+  img#folhas {
+    position: absolute;
+  }
+
+  img#recicla2 {
+    position: absolute;
+    width: 20vw;
+    top: 130vh;
+    left: 31px;
+  }
+
+  img#folhas {
+    right: 31px;
+    width: 20vw;
+  }
+
+  img#banner {
+    align-self: center;
+    margin-top: 75px;
+    height: 40vh;
+  }
+}
+
+section.sobre-nos {
+  padding: 30px 75px 126px 75px;
+
+  h1 {
+    color: $roxo;
+    font-size: 50px;
+    font-family: Neufreit;
+    line-height: 70px;
+  }
+
+  article,
+  div {
+    display: flex;
+  }
+
+  div {
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+
+    h2 {
+      font-family: "Inter Medium";
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    p {
+      font-family: "Inter Medium";
+      font-size: 16px;
+      line-height: 26px;
+      color: $preto;
+    }
+  }
+  article.equipe {
+    gap: 107px;
+    img {
+      max-height: 32vw;
+    }
+  }
+  article.projeto {
+    gap: 200px;
+    img {
+      max-width: 32vw;
+      margin-left: 92px;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
